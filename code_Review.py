@@ -7,6 +7,8 @@ x = np.linspace(-2 * np.pi, 2 * np.pi, 1000)
 # Calculate the sine values for each x
 y = np.sin(x)
 
+Z = np.cos(y)
+
 # Create a plot 
 plt.figure(figsize=(8, 4))
 plt.plot(x, y, label='sin(x)', color='blue')
